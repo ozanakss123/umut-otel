@@ -129,7 +129,17 @@ header {
     border-radius: 7px;
 }
 
+.btn-car{
+    border: 2px solid #353535;
+    background-color: #3e3e3e;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
 
+.btn-car:hover{
+    background-color: #82934e;
+    border: 2px solid #6e7c43;
+}
 
 .underline {
     display: inline-block;
@@ -210,7 +220,7 @@ header .overlay {
 }
 
 .car-text {
-    text-shadow: 2px 1px 1px #000000, 2px 1px 1px #000000, 2px 1px 1px #000000;
+    text-shadow: 2px 1px 1px #000000, 2px 1px 1px #000000, 2px 1px 1px #000000, 2px 1px 1px #000000, 2px 1px 1px #000000, 2px 1px 1px #000000, 2px 3px 10px #000000;
 }
 
 .text-green {
