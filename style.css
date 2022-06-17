@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+html {
+    font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+    html {
+        font-size: 1.2rem;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    html {
+        font-size: 1.4rem;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    html {
+        font-size: 1.6rem;
+    }
+}
+
+
+#galeri {
+    font-family: 'League Spartan', sans-serif;
+    background-color: rgb(245, 245, 245);
+}
+
+#restaurant {
+    font-family: 'League Spartan', sans-serif;
+}
+
+#aboutus {
+    font-family: 'League Spartan', sans-serif;
+    background-color: rgb(245, 245, 245);
+}
+
+#contact {
+    font-family: 'League Spartan', sans-serif;
+}
+
+nav {
+    font-family: 'Manrope', sans-serif;
+}
+
+header {
+    font-family: 'League Spartan', sans-serif;
+}
+
+.logo {
+    width: 20%;
+}
+
+
+.btn-rezervasyon {
+    width: 150px;
+    margin: 16px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    color: #82934e;
+    border: 3px solid #82934e;
+    background-color: white;
+    background-repeat: repeat-x;
+    background-position: 0 -100%;
+    transition: 1.5s ease;
+}
+
+/* Sweep To Right */
+.btn-rez {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #82934e;
+    background-color: transparent;
+    display: inline-block;
+    transform: perspective(1px) translateZ(0);
+    position: relative;
+    transition: color 0.3s;
+}
+
+.btn-rez:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: #82934e;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    transition: transform 0.4s ease-out;
+}
+
+.btn-rez:hover {
+    color: white;
+}
+
+.btn-rez:hover:before {
+    transform: scaleX(1);
+    border-radius: 7px;
+}
+
+
+
+.underline {
+    display: inline-block;
+    position: relative;
+    color: #fff;
+}
+
+.underline:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2.5px;
+    bottom: 0;
+    left: 0;
+    background-color: #82934e;
+    transform-origin: bottom left;
+    transition: transform 0.4s ease-out;
+}
+
+.underline:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+header {
+    position: relative;
+    background-color: black;
+    height: 90vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+    position: relative;
+    z-index: 2;
+}
+
+header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.1;
+    z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+    header {
+        background: url('images/hero-2.png') black no-repeat center center scroll;
+    }
+
+    header video {
+        display: none;
+    }
+}
+
+.hero-text {
+    text-shadow: 2px 1px 1px #82934e, 2px 1px 1px #000000, 2px 1px 1px #000000;
+}
+
+.car-text {
+    text-shadow: 2px 1px 1px #000000, 2px 1px 1px #000000, 2px 1px 1px #000000;
+}
+
+.text-green {
+    color: #82934e;
+}
+
+.text-lightgreen {
+    color: #9fb361
+}
+
+.text-gray {
+    color: #636363;
+}
+
+.bg-green {
+    background-color: #212612;
+}
+
+.carousel-item {
+    height: 60vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.hes-img {
+    width: 20%;
+    height: 10%;
+}
+
+.koy-img {
+    width: 70%;
+    height: 70%;
+}
+
+.text-koy {
+    font-size: 0.8rem;
+    font-family: 'League Spartan', sans-serif;
+}
+
+@media (max-width: 767px) {
+    .logo {
+        width: 15%;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+}
+
+
+
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+}
+
+ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+}
+
+.social-network a.icoInsta:hover {
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+}
+
+.social-network a.icoFacebook:hover {
+    background-color: #3b5998;
+}
+
+.social-network a.icoTrip:hover {
+    background-color: #00AF87;
+}
+
+.social-network a.icoGoogle:hover {
+    background-color: #BD3518;
+}
+
+.social-network a.icoVimeo:hover {
+    background-color: #0590B8;
+}
+
+.social-network a.icoLinkedin:hover {
+    background-color: #007bb7;
+}
+
+.social-network a.icoInsta:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTrip:hover i,
+.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+    color: #fff;
+}
+
+a.socialIcon:hover, .socialHoverClass {
+    color: #44BCDD;
+}
+
+.social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #2e2e2e;
+}
+
+.social-circle li i {
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -o-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    transition: all 0.7s;
+}
+
+.social-circle i {
+    color: #fff;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: flex-end;
+}
