@@ -1,18 +1,5 @@
 window.sr = new ScrollReveal();
 
-sr.reveal('.ani1', {
-    delay: 200,
-    origin: "top",
-    distance: "200px",
-    interval: 100
-});
-
-sr.reveal('.ani2', {
-  delay: 300,
-  origin: "top",
-  distance: "200px",
-  interval: 100
-});
 
 sr.reveal('.galeri1', {
   delay: 300,
