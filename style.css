@@ -363,7 +363,7 @@ a.socialIcon:hover, .socialHoverClass {
     justify-content: flex-end;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 777px) {
     .logo {
         width: 15%;
         justify-content: flex-end;
@@ -465,7 +465,7 @@ a.socialIcon:hover, .socialHoverClass {
     }
 }
 
-@media (min-width: 767px) {
+@media (min-width: 777px) {
     .mobile2 {
         display: none;
     }
