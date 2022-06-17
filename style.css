@@ -2,6 +2,7 @@
 
 html {
     font-size: 1rem;
+    scroll-behavior: smooth;
 }
 
 @include media-breakpoint-up(sm) {
@@ -22,22 +23,27 @@ html {
     }
 }
 
+iframe {
+    width: 850px;
+    height: 350;
+    border: 0;
+}
 
 #galeri {
     font-family: 'League Spartan', sans-serif;
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(236, 236, 236);
 }
 
 #restaurant {
     font-family: 'League Spartan', sans-serif;
 }
 
-#aboutus {
+#hakkimizda {
     font-family: 'League Spartan', sans-serif;
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(236, 236, 236);
 }
 
-#contact {
+#iletisim {
     font-family: 'League Spartan', sans-serif;
 }
 
@@ -53,22 +59,26 @@ header {
     width: 20%;
 }
 
-
-.btn-rezervasyon {
-    width: 150px;
-    margin: 16px;
+.btn-rez2 {
     padding: 10px;
-    text-align: center;
-    border-radius: 15px;
-    color: #82934e;
-    border: 3px solid #82934e;
-    background-color: white;
-    background-repeat: repeat-x;
-    background-position: 0 -100%;
-    transition: 1.5s ease;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+    background-color: transparent;
+    display: inline-block;
+    transform: perspective(1px) translateZ(0);
+    position: relative;
+    transition: all ease-in-out 0.3s;
+    text-shadow: 2px 1px 1px #000000, 2px 1px 1px #000000, 2px 1px 1px #000000;
 }
 
-/* Sweep To Right */
+.btn-rez2:hover {
+    background-color: #fff;
+    color: #000000;
+    text-shadow: none;
+}
+
 .btn-rez {
     padding: 10px;
     border-radius: 10px;
@@ -228,15 +238,6 @@ header .overlay {
     font-family: 'League Spartan', sans-serif;
 }
 
-@media (max-width: 767px) {
-    .logo {
-        width: 15%;
-        justify-content: flex-end;
-        align-items: flex-end;
-    }
-}
-
-
 
 ul.social-network {
     list-style: none;
@@ -331,4 +332,50 @@ a.socialIcon:hover, .socialHoverClass {
 .social-icons {
     display: flex;
     justify-content: flex-end;
+}
+
+@media (max-width: 767px) {
+    .logo {
+        width: 15%;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    iframe {
+        width: 400px;
+        height: 400;
+        border: 0;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .copyright {
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+    }
+
+    .social-icons {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 767px) {
+    .mobile2 {
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    iframe {
+        width: 500px;
+        height: 500;
+        border: 0;
+    }
+
 }

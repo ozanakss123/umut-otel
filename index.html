@@ -14,7 +14,7 @@
 
 </head>
 
-<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="120">
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
   <!--Navbar-->
   <nav class="navbar navbar-expand-md py-1 navbar-light bg-light sticky-top">
     <div class="container">
@@ -62,6 +62,9 @@
         <div class="w-100 text-white">
           <h1 class="display-3 fw-bold car-text">Umut Otel & Guest House</h1>
           <p class="lead mb-0 car-text">Sevdiklerinizle konforlu bir tatil için</p>
+          <a class="text-decoration-none" href="#"><button class="btn-rez2 mx-2">
+            Rezervasyon Yap
+          </button></a>
         </div>
       </div>
     </div>
@@ -164,8 +167,8 @@
         <div class="col-md-2"></div>
       </div>
 
-      <div class="text-center">
-        <h3 class="mt-4 mb-5 fw-bold text-green">Odalar & Bahçe</h3>
+      <div class="">
+        <h3 class="mt-4 mb-5 fw-bold text-green text-center">Odalar & Bahçe</h3>
 
         <div id="myCarousel2" class="carousel slide carousel-fade mb-3" data-bs-ride="carousel">
           <div class="carousel-indicators">
@@ -233,13 +236,13 @@
           </button>
         </div>
         <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-2 ">
+            <p class="text-green mt-3 fw-bold text-start">Odalarımızda:</p>
+          </div>
           <div class="col-md-3"></div>
           <div class="col-md-2">
-            <p class="text-green text-center mt-3 fw-bold">Odalarımızda:</p>
-          </div>
-          <div class="col-md-2"></div>
-          <div class="col-md-2">
-            <p class="text-green mt-3 fw-bold">Bahçemizde:</p>
+            <p class="text-green mt-3 fw-bold text-start mobile">Bahçemizde:</p>
           </div>
         </div>
         <div class="row">
@@ -268,7 +271,7 @@
           </div>
           <div class="col-md-1"></div>
           <div class="col-md-2">
-            <ul class="text-start">
+            <ul class="text-start mobile">
               <li>Zeytin</li>
               <li>Şeftali</li>
               <li>Portakal</li>
@@ -279,6 +282,20 @@
             </ul>
           </div>
           <div class="col-md-2"></div>
+        </div>
+        <div class="row">
+          <div class="col-md-2"><p class="text-green mt-3 fw-bold text-start mobile2">Bahçemizde:</p></div>
+          <div class="col-md-8  mobile2">
+            <ul class="text-start">
+              <li>Zeytin</li>
+              <li>Şeftali</li>
+              <li>Portakal</li>
+              <li>Limon</li>
+              <li>Turunç</li>
+              <li>Mandalina Ağaçları</li>
+              <li>Bahçede Kahvaltı İmkanı</li>
+              </ul>
+          </div>
         </div>
 
         <div class="text-center">
@@ -371,7 +388,7 @@
                 <li>Inverter Klima</li>
                 <li>Küçük elektrikli mutfak aletleri</li>
                 <li>Tabak-tencere-tava </li>
-                <li class=" list-unstyled">ve benzeri eşyalar bulunmaktadır.</li>
+                <li class=" list-unstyled mb-5">ve benzeri eşyalar bulunmaktadır.</li>
               </ul>
             </div>
           </div>
@@ -397,40 +414,6 @@
             Balıkçılar Kooperatifinden günlük olarak alınmaktadır.</p>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-3"></div>
-        <div class="col-md-6">
-          <h3 class="mb-3 mt-4 text-green">Kahvaltımız</h3>
-          <p>Saat 08.30-10.30 arası yapılmaktadır.</p>
-          <p class="fw-bold">Kahvaltımızda bazlama/köy ekmeği, domates, salatalık, biber, tereyağı, kavun/karpuz, 3
-            çeşit zeytin, 3 çeşit
-            peynir, Pınar hanım ya da annesi Semra hanım tarafından yapılan 3 çeşit reçel, ve muhtelif hamur işleri
-            bulunmaktadır.</p>
-          <p>Ayrıca isteğe bağlı olarak sucuk, sosis, menemen, krep, pancake de servis edilmektedir.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-3"></div>
-        <div class="col-md-6">
-          <h3 class=" mb-3 mt-4 text-green">Öğle Servisi</h3>
-          <p>Saat 11.00-18.00 arası yapılmaktadır.</p>
-          <p class="fw-bold">Öğlen menüsünde genel olarak köfte, hamburger menü, patates kızartması, sigara böreği,
-            mantı, zeytinyağlılar ve çeşitli ev yemekleri bulunmaktadır. Öğlen servisimiz plajda verilmektedir.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-3"></div>
-        <div class="col-md-6">
-          <h3 class="text-green mb-3 mt-4">Akşam Servisi</h3>
-          <p>Saat 19.00-22.00 arası yapılmaktadır.</p>
-          <p class="fw-bold">Öğlen ve akşam yemeklerimiz Mutfak Sanatları Akademisinden mezun profesyonel aşçımız
-            tarafından hazırlanmaktadır. Her gün belirli bir programa göre muhtelif ev yemeklerinin yanı sıra balık
-            çeşitleri, ahtopot kalamar karides ve çok lezzetli taze mezeler servis edilmektedir.</p>
-          <p class="text-gray fw-bold">Herhangi bir alerjiniz varsa mutlaka bildiriniz. Mümkün olduğu takdirde size
-            göre yemek yapılabilir.</p>
-        </div>
-      </div>
-
       <div id="myCarousel4" class="carousel slide carousel-fade mt-5 mb-3" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselMaterialStyle" data-bs-slide-to="0" class="active"
@@ -487,6 +470,41 @@
           <span class="visually-hidden">İleri</span>
         </button>
       </div>
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+          <h3 class="mb-3 mt-5 text-green">Kahvaltımız</h3>
+          <p>Saat 08.30-10.30 arası yapılmaktadır.</p>
+          <p class="fw-bold">Kahvaltımızda bazlama/köy ekmeği, domates, salatalık, biber, tereyağı, kavun/karpuz, 3
+            çeşit zeytin, 3 çeşit
+            peynir, Pınar hanım ya da annesi Semra hanım tarafından yapılan 3 çeşit reçel, ve muhtelif hamur işleri
+            bulunmaktadır.</p>
+          <p>Ayrıca isteğe bağlı olarak sucuk, sosis, menemen, krep, pancake de servis edilmektedir.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+          <h3 class=" mb-3 mt-4 text-green">Öğle Servisi</h3>
+          <p>Saat 11.00-18.00 arası yapılmaktadır.</p>
+          <p class="fw-bold">Öğlen menüsünde genel olarak köfte, hamburger menü, patates kızartması, sigara böreği,
+            mantı, zeytinyağlılar ve çeşitli ev yemekleri bulunmaktadır. Öğlen servisimiz plajda verilmektedir.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+          <h3 class="text-green mb-3 mt-4">Akşam Servisi</h3>
+          <p>Saat 19.00-22.00 arası yapılmaktadır.</p>
+          <p class="fw-bold">Öğlen ve akşam yemeklerimiz Mutfak Sanatları Akademisinden mezun profesyonel aşçımız
+            tarafından hazırlanmaktadır. Her gün belirli bir programa göre muhtelif ev yemeklerinin yanı sıra balık
+            çeşitleri, ahtopot kalamar karides ve çok lezzetli taze mezeler servis edilmektedir.</p>
+          <p class="text-gray fw-bold mb-5">Herhangi bir alerjiniz varsa mutlaka bildiriniz. Mümkün olduğu takdirde size
+            göre yemek yapılabilir.</p>
+        </div>
+      </div>
+
+      
     </div>
   </section>
   <!--End of the Restaurant Section-->
@@ -535,11 +553,11 @@
                 <div class="carousel-caption">
                 </div>
               </div>
-              <div class="carousel-item" style="background-image: url('images/A0021874.jpg')">
+              <div class="carousel-item" style="background-image: url('images/bahçe\ \(12\).JPG')">
                 <div class="carousel-caption">
                 </div>
               </div>
-              <div class="carousel-item" style="background-image: url('images/bahçe\ \(1\).JPG')">
+              <div class="carousel-item" style="background-image: url('images/bahçe\ \(10\).JPG')">
                 <div class="carousel-caption">
                 </div>
               </div>
@@ -808,7 +826,7 @@
                 <span class="visually-hidden">Next</span>
               </button>
             </div>
-            <div class="col-md-2"></div>
+            <div class="col-md-2 mb-5"></div>
           </div>
         </div>
   </section>
@@ -854,10 +872,10 @@
           <div class="social-icons">
             <div>
               <ul class="social-network social-circle">
-                <li><a href="#" class="icoInsta" title="Instagram"><i class="fa fa-instagram"></i></a></li>
-                <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#" class="icoTrip" title="Trip Advisor"><i class="fa fa-tripadvisor"></i></a></li>
-                <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="https://www.facebook.com/umutpansiyonselimiye/" class="icoInsta" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://www.instagram.com/umutpansiyonselimiye/?hl=tr" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://www.tripadvisor.com.tr/Hotel_Review-g1507463-d12479042-Reviews-Umut_Pansiyon-Selimiye_Marmaris_District_Mugla_Province_Turkish_Aegean_Coast.html" class="icoTrip" title="Trip Advisor"><i class="fa fa-tripadvisor"></i></a></li>
+                <li><a href="https://www.google.com/travel/hotels/entity/CgsIiZLWiKObsf7AARAB/reviews?g2lb=2502405%2C2502548%2C4208993%2C4254308%2C4258168%2C4260007%2C4270442%2C4271059%2C4274032%2C4291318%2C4305595%2C4308216%2C4314846%2C4315873%2C4317915%2C4324293%2C4328159%2C4329288%2C4330113%2C4338119%2C4338437%2C4340162%2C4340869%2C4270859%2C4284970%2C4291517%2C4292955%2C4316256&hl=tr&gl=tr&un=1&rp=EImS1oijm7H-wAE4AkAASAE&ictx=1&sa=X&ved=2ahUKEwj45cCH5pHnAhWdwsQBHUhBBdEQ4gkwDHoECA4QIA&hrf=KhYKBwjkDxACGBASBwjkDxACGBEYASgAggElMHgxNGJmY2YzZWU5NWUwOWYxOjB4YzBmY2M0ZGEzMTE1ODkwOZoBJxolMHgxNGJmY2YzZWU5NWUwOWYxOjB4YzBmY2M0ZGEzMTE1ODkwOQ" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
               </ul>
             </div>
           </div>
@@ -877,6 +895,7 @@
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
   integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
 <script src="https://scripts.sirv.com/sirvjs/v3/sirv.js"></script>
+<script src="app.js"></script>
 </body>
 
 </html>
