@@ -23,6 +23,22 @@ html {
     }
 }
 
+.navbar ul li{
+    text-align:center;
+}
+
+
+.navbar a button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-toggle {
+    float: none;
+    margin-right:0;
+}
+
 iframe {
     width: 850px;
     height: 350;
@@ -363,6 +379,64 @@ a.socialIcon:hover, .socialHoverClass {
         align-items: center;
         justify-content: center;
     }
+
+    .underline {
+        display: inline-block;
+        position: relative;
+        color: #fff;
+    }
+    
+    .underline:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2.5px;
+        bottom: 0;
+        left: 0;
+        background-color: #82934e;
+        transform-origin: bottom center;
+        transition: transform 0.4s ease-out;
+    }
+    
+    .underline:hover:after {
+        transform: scaleX(1);
+        transform-origin: bottom center;
+    }
+
+    .btn-rez {
+        padding: 10px;
+        width: 100%;
+        background-color: #82934e;
+        color: #fff;
+        display: inline-block;
+        transform: perspective(1px) translateX(0);
+        position: relative;
+        transition: color 0.3s;
+        margin-bottom: 20px;
+    }
+    
+    .btn-rez:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        background: #fff;
+        transform: scaleY(0);
+        transform-origin: 0 100%;
+        transition: transform 0.4s ease-out;
+    }
+    
+    .btn-rez:hover {
+        color: #82934e;
+    }
+    
+    .btn-rez:hover:before {
+        transform: scaleY(1);
+    }
 }
 
 @media (min-width: 767px) {
@@ -371,7 +445,7 @@ a.socialIcon:hover, .socialHoverClass {
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
     iframe {
         width: 500px;
         height: 500;
