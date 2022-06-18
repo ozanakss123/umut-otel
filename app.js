@@ -1,6 +1,5 @@
 window.sr = new ScrollReveal();
 
-
 sr.reveal('.galeri1', {
   delay: 300,
   origin: "top",
@@ -179,161 +178,146 @@ sr.reveal('.r10', {
 sr.reveal('.r11', {
   delay: 400,
   origin: "right",
-  distance: "500px",
-  interval: 300
+  distance: "200px",
+  interval: 100
 });
 
 sr.reveal('.hak1', {
-  delay: 100,
+  delay: 300,
   origin: "top",
   distance: "200px",
   interval: 100
 });
 
 sr.reveal('.hak2', {
-  delay: 200,
+  delay: 400,
   origin: "top",
   distance: "200px",
   interval: 100
 });
 
 sr.reveal('.hak3', {
-  delay: 300,
+  delay: 500,
   origin: "left",
   distance: "200px",
   interval: 100
 });
 
 sr.reveal('.hak4', {
-  delay: 300,
+  delay: 500,
   origin: "left",
   distance: "200px",
   interval: 100
 });
 
 sr.reveal('.hak5', {
-  delay: 300,
+  delay: 600,
   origin: "left",
   distance: "200px",
   interval: 100
 });
 
 sr.reveal('.hak6', {
-  delay: 300,
+  delay: 600,
   origin: "right",
-  distance: "500px",
+  distance: "200px",
   interval: 100
 });
 
 sr.reveal('.hak7', {
-  delay: 300,
+  delay: 700,
   origin: "left",
-  distance: "500px",
-  interval: 100
-});
-
-sr.reveal('.hak6', {
-  delay: 300,
-  origin: "right",
-  distance: "500px",
-  interval: 100
-});
-
-sr.reveal('.hak7', {
-  delay: 300,
-  origin: "left",
-  distance: "500px",
+  distance: "200px",
   interval: 100
 });
 
 sr.reveal('.hak8', {
-  delay: 300,
+  delay: 700,
   origin: "right",
-  distance: "500px",
+  distance: "200px",
   interval: 100
 });
 
 sr.reveal('.hak9', {
-  delay: 300,
+  delay: 700,
   origin: "right",
-  distance: "500px",
+  distance: "200px",
   interval: 100
 });
 
 sr.reveal('.hak10', {
-  delay: 300,
+  delay: 700,
   origin: "right",
-  distance: "500px",
+  distance: "200px",
   interval: 100
 });
 
 sr.reveal('.hak11', {
-  delay: 300,
+  delay: 800,
   origin: "top",
-  distance: "500px",
+  distance: "200px",
   interval: 100
 });
 
 sr.reveal('.hak12', {
-  delay: 300,
+  delay: 900,
   origin: "top",
-  distance: "500px",
+  distance: "200px",
   interval: 100
 });
 
-
 sr.reveal('.co1', {
-  delay: 200,
+  delay: 300,
   origin: "top",
-  distance: "500px",
+  distance: "200px",
   interval: 100
 });
 
 sr.reveal('.co2', {
-  delay: 300,
+  delay: 400,
   origin: "top",
-  distance: "500px",
+  distance: "200px",
   interval: 100
 });
 
 sr.reveal('.co3', {
-  delay: 300,
+  delay: 500,
   origin: "left",
-  distance: "500px",
+  distance: "200px",
   interval: 100
 });
 
 sr.reveal('.co4', {
-  delay: 300,
+  delay: 600,
   origin: "left",
-  distance: "500px",
+  distance: "200px",
   interval: 100
 });
 
 sr.reveal('.co5', {
-  delay: 600,
+  delay: 700,
   origin: "right",
-  distance: "500px",
+  distance: "200px",
   interval: 100
 });
 
 sr.reveal('.co6', {
-  delay: 600,
+  delay: 800,
   origin: "right",
-  distance: "500px",
+  distance: "200px",
   interval: 100
 });
 
 sr.reveal('.co7', {
-  delay: 700,
+  delay: 800,
   origin: "top",
-  distance: "500px",
+  distance: "200px",
   interval: 100
 });
 
 sr.reveal('.co8', {
-  delay: 700,
+  delay: 1000,
   origin: "top",
-  distance: "500px",
+  distance: "200px",
   interval: 100
 });

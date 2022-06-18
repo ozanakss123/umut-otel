@@ -6,27 +6,27 @@ html {
     scroll-behavior: smooth;
 }
 
-p,li,h1,h2,h6{
+p, li, h1, h2, h6 {
     font-size: large;
 }
 
-ul li a{
+ul li a {
     font-size: medium;
     font-weight: bold;
 }
 
-.navbar ul li{
+.navbar ul li {
     text-align: center;
 }
 
-.footer-bottom{
+.footer-bottom {
 
     font-size: smaller;
     font-weight: bold;
     font-family: 'Manrope', sans-serif;
 }
 
-.navbar a button{
+.navbar a button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,7 +34,7 @@ ul li a{
 
 .navbar-toggle {
     float: none;
-    margin-right:0;
+    margin-right: 0;
 }
 
 iframe {
@@ -43,19 +43,45 @@ iframe {
     border: 0;
 }
 
+.carousel-caption2 {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    right: 20%;
+    min-width: 500px;
+}
+
+.carousel-caption2 h5{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+
+.carousel-caption2 p{
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+}
+
+.carousel-caption2{
+    text-align: center;
+    line-height: 1.8;
+}
+
 .carousel-caption {
-    width:100%;
-    height:100%;
-    left:0 !important;
+    width: 100%;
+    height: 100%;
+    left: 0 !important;
 }
 
 .carousel-caption h5 {
-  text-align:center;
-  margin-top: 15%;
-  font-size: 5rem;
+    text-align: center;
+    margin-top: 15%;
+    font-size: 5rem;
 }
+
 .carousel-caption p {
-  font-size: 1.5rem;
+    font-size: 1.5rem;
 }
 
 
@@ -90,7 +116,7 @@ header {
     transition: 0.25s ease-in-out;
 }
 
-.logo:hover{
+.logo:hover {
     width: 21%;
 }
 
@@ -102,7 +128,7 @@ header {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  }
+}
 
 
 .btn-rez2 {
@@ -165,14 +191,14 @@ header {
     border-radius: 10px;
 }
 
-.btn-car{
+.btn-car {
     border: 2px solid #353535;
     background-color: #3e3e3e;
     color: white;
     transition: 0.3s ease-in-out;
 }
 
-.btn-car:hover{
+.btn-car:hover {
     background-color: #82934e;
     border: 2px solid #6e7c43;
 }
@@ -354,21 +380,22 @@ a.socialIcon:hover, .socialHoverClass {
     }
 
     .carousel-caption {
-        width:100%;
-        height:100%;
-        left:0 !important;
-    }
-    
-    .carousel-caption h5 {
-      text-align:center;
-      margin-top: 28%;
-      font-size: 2.2rem;
-    }
-    .carousel-caption p {
-      font-size: 1rem;
+        width: 100%;
+        height: 100%;
+        left: 0 !important;
     }
 
-    .btn-rez2{
+    .carousel-caption h5 {
+        text-align: center;
+        margin-top: 28%;
+        font-size: 2.2rem;
+    }
+
+    .carousel-caption p {
+        font-size: 1rem;
+    }
+
+    .btn-rez2 {
         font-size: 0.8rem;
     }
 
@@ -401,7 +428,7 @@ a.socialIcon:hover, .socialHoverClass {
         position: relative;
         color: #fff;
     }
-    
+
     .underline:after {
         content: '';
         position: absolute;
@@ -414,7 +441,7 @@ a.socialIcon:hover, .socialHoverClass {
         transform-origin: bottom center;
         transition: transform 0.4s ease-out;
     }
-    
+
     .underline:hover:after {
         transform: scaleX(1);
         transform-origin: bottom center;
@@ -431,7 +458,7 @@ a.socialIcon:hover, .socialHoverClass {
         transition: color 0.3s;
         margin-bottom: 20px;
     }
-    
+
     .btn-rez:before {
         content: "";
         position: absolute;
@@ -445,20 +472,20 @@ a.socialIcon:hover, .socialHoverClass {
         transform-origin: 0 100%;
         transition: transform 0.2s ease-out;
     }
-    
+
     .btn-rez:hover {
         color: #82934e;
     }
-    
+
     .btn-rez:hover:before {
         transform: scaleY(1);
     }
 
-    p,li,h1,h2,h6{
+    p, li, h1, h2, h6 {
         font-size: medium;
     }
-    
-    ul li a{
+
+    ul li a {
         font-size: large;
         font-weight: bold;
     }
