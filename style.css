@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 
+
 html {
     font-size: 1rem;
     scroll-behavior: smooth;
@@ -42,6 +43,22 @@ iframe {
     border: 0;
 }
 
+.carousel-caption {
+    width:100%;
+    height:100%;
+    left:0 !important;
+}
+
+.carousel-caption h5 {
+  text-align:center;
+  margin-top: 20%;
+  font-size: 5rem;
+}
+.carousel-caption p {
+  font-size: 1.5rem;
+}
+
+
 #galeri {
     font-family: 'League Spartan', sans-serif;
     background-color: rgb(236, 236, 236);
@@ -75,8 +92,18 @@ header {
 
 .logo:hover{
     width: 21%;
-
 }
+
+.carousel-hero {
+    height: 90vh;
+    min-height: 200px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
 
 .btn-rez2 {
     padding: 12px;
@@ -174,56 +201,6 @@ header {
     transform-origin: bottom left;
 }
 
-header {
-    position: relative;
-    background-color: black;
-    height: 90vh;
-    min-height: 25rem;
-    width: 100%;
-    overflow: hidden;
-}
-
-header video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: 0;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-}
-
-header .container {
-    position: relative;
-    z-index: 2;
-}
-
-header .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: black;
-    opacity: 0.1;
-    z-index: 1;
-}
-
-@media (pointer: coarse) and (hover: none) {
-    header {
-        background: url('images/hero-2.png') black no-repeat center center scroll;
-    }
-
-    header video {
-        display: none;
-    }
-}
-
 .hero-text {
     text-shadow: 2px 1px 1px #82934e, 2px 1px 1px #000000, 2px 1px 1px #000000;
 }
@@ -248,8 +225,8 @@ header .overlay {
     background-color: #636363;
 }
 
-.carousel-item {
-    height: 60vh;
+.carousel-item2 {
+    height: 65vh;
     min-height: 300px;
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
