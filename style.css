@@ -43,6 +43,12 @@ iframe {
     border: 0;
 }
 
+.carousel-caption h6{
+    text-align: center;
+    color: white;
+    font-size: 3.5rem;
+}
+
 .carousel-caption2 {
     position: absolute;
     top: 40%;
@@ -233,6 +239,10 @@ header {
 
 .car-text {
     text-shadow: 2px 1px 1px #000000, 2px 1px 1px #000000, 2px 1px 1px #000000, 2px 1px 1px #000000, 2px 1px 1px #000000, 2px 1px 1px #000000, 2px 3px 10px #000000;
+}
+
+.car-text2 {
+    text-shadow: 2px 1px 1px #82934e, 2px 1px 1px #82934e, 2px 1px 1px #82934e, 2px 1px 1px #82934e, 2px 1px 1px #82934e, 2px 1px 1px #000000, 2px 3px 10px #000000;
 }
 
 .text-green {
